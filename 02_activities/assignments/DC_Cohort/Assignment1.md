@@ -14,10 +14,10 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-one`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [X] Create a branch called `assignment-one`.
+- [X] Ensure that the repository is public.
+- [X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [X] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
 
@@ -207,6 +207,11 @@ Link if you encounter a paywall: https://archive.is/srKHV or https://web.archive
 
 Consider, for example, concepts of fariness, inequality, social structures, marginalization, intersection of technology and society, etc.
 
+The Wired article explores the value systems inherent in the structures we create to express relationships between data that helps us explain society. By exploring the case of Pakistan's national registry database, they demonstrate that the assumptions we make about data structures and relationships shape how we measure and understand the world we live in. By assuming that the typical family is the prototypical standard, it marginalizes and deligitimizes other familar relations on kinship. As we increasingly move to a structured data-driven interpretation of society, the decisions we make now in terms of how we measure data has impacts on who is seen and legitimized.
+
+In my case, as a political scientist, I often think about two key things in my data. The first is representativeness; does the data I collect represent all segments of the population? For a long time, there was little research on sociodemographic differences in Canadian politics, notably in terms of Indigenous or LGBTQ2IA political behaviour. On the one hand, it is simply a question of marginalization, but it does lead us to think about how this erasure leads to erroneous understanding of the political behaviour mechanisms we test on the "ideal type" respondent. In my research, my analysis is often targeted on the average sample individual, for general representativeness, although potential at the cost of marginalized representation. The choice to measure at the average means we miss out on the unique and marginalized cases, which might act and react differently than the average. My discipline is not the only one with this issue, we can think about medical or psychological research that has long overlooked marginalized patients in their testing. This is a part of doing social sciences with humans, we don't all act the same like physical systems, there are no universal laws in our behaviour, we are all unique in our own way.
+
+The second issue I often face is how to operationalize and what to measure. The choice to represent or not question and data in our datasets reveals much about the choice we make and the data we value. The choose to value certain attributes is to make a normative claim about what is valuable and what is unecessary, which might be different to what the individuals believe. To measure and operationalize correctly is also a question of measuring the correct attitudes. Just because things are measured, does not mean they correctly represent individual's beliefs. Just because the Pakistani registry names a parent, does not mean it is the correct one. Thus, it is not only a question or marignalization and data structures, but also an issue of representativeness, which everyone deserves to have. 
 
 ```
 Your thoughts...
