@@ -14,11 +14,11 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] 🚨🚨🚨 After forking, open the **Actions** tab in your own SQL repository. If prompted, click **I understand my workflows, go ahead and enable them** before opening your assignment pull request. This enables automatic SQL feedback on your pull request.
-- [ ] Create a branch called `assignment-two`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [X] 🚨🚨🚨 After forking, open the **Actions** tab in your own SQL repository. If prompted, click **I understand my workflows, go ahead and enable them** before opening your assignment pull request. This enables automatic SQL feedback on your pull request.
+- [X] Create a branch called `assignment-two`.
+- [X] Ensure that the repository is public.
+- [X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [X] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
 
@@ -57,7 +57,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+A type 1 architecture overwrites the changes, while the type two architecture will retain changes. This would affect how we save data regarding the customer addresses.
 ```
 
 ***
@@ -193,5 +193,9 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+I found this article interesting, notably how the way we quantify and structure data affects how we interpret the world around us. Our biases are inherent in the decisions we make and even "objective" standards, like NeuralNet, are both at risk of mistakes and blindspots. When we think about machine learning, we need to recognize that it is rooted in human choices, coding and unfortunately, errors. Machine learning and neural networks are also not a new thing, they are rooted in 75 years of computation, starting with Turing all the way to now. The models arms race we see now is less of a race for new methods, but rather more computation, which in itself can increase the chances of introducing more error through rushed data collection. The LLMs we find are built on user-coded data, parading as artificially generated creations from a magical black box.
+
+When thinking about the data used to develop LLMs, I think about the ethical concerns of scraping and the fact that this business has profited off of billions of unique writers and thinkers (not all good or moral), from every single tweet, to more pressing issues like newspaper articles, books or artwork, which will never be renumerated. I think about the future, whether or not people will accept user-generated concept, for example might this backfire and increase demand for material items such as real paintings or well-designed posters (I avoid AI-generated restaurant posters at all costs). Even the mechanical Turks used were poorly paid, which resulted in bad or immoral data categorization. What is the value of data and original content in the future, so high that companies are ripping through old manuscripts to race for more data. At what point does this also become a loop, where new models are trained on past data, crystallizing inherent biases from past models? These issues are worrying for me, working in the social sciences, where people interact with these models for information, which may be biased.
+
+
 ```
