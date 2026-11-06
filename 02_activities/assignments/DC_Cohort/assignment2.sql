@@ -239,11 +239,11 @@ INSERT INTO product_units (
     snapshot_timestamp
 )
 VALUES (
-    14,
-    'Red Potatoes',
-    NULL,
-    1,
-    NULL,
+    7,
+    'Apple Pie',
+    '10"',
+    3,
+    'unit',
     CURRENT_TIMESTAMP
 );
 
@@ -256,8 +256,11 @@ VALUES (
 HINT: If you don't specify a WHERE clause, you are going to have a bad time.*/
 --QUERY 11
 DELETE FROM product_units
-WHERE product_name = 'Red Potatoes';
-
+WHERE product_name = 'Apple Pie'
+AND snapshot_timestamp = (
+      SELECT MAX(snapshot_timestamp)
+      FROM product_units
+      WHERE product_name = 'Apple Pie');
 
 --END QUERY
 
